@@ -3,17 +3,17 @@ Para desenvolver aplicativos em TVML, é preciso iniciar um servidor local que s
 
 ### Criando o projeto
 1. Crie um novo projeto com o template `TVML Application`, presente na aba `tvOS`.
-![](tutorial/screenshots/tvml-template.png)
+![](screenshots/tvml-template.png)
 
 2. Dê um nome ao seu projeto e clique em continuar (neste caso, estaremos utilizando `HelloTVML`).
-![](tutorial/screenshots/create-project.png)
+![](screenshots/create-project.png)
 
 Ok, vamos executar e... OPS! Obtemos o seguinte erro:
-![](tutorial/screenshots/launching-error.png)
+![](screenshots/launching-error.png)
 
 Isso aconteceu pois a Apple TV não conseguiu obter o código JavaScript principal, por padrão chamado de `application.js`. Ele está aí no seu projeto, escondido na pasta Supporting Files.
 
-![](tutorial/screenshots/applicationjs-location.png)
+![](screenshots/applicationjs-location.png)
 
 Se você der uma espiada na classe `AppDelegate`, verá que haverão duas variáveis que apontam para o endereço que a Apple TV está tentando acessar:
 ``` swift
@@ -43,9 +43,9 @@ Se você tentar executar o app verá que o erro ainda persiste. Isto ocorre porq
 Para permitir que o app tenha acesso ao servidor local, vá até o projeto do Xcode e abra o arquivo `Info.plist`.
 Dentro dele, adicione as seguintes propriedades:  
 
-![](tutorial/screenshots/setup-info-plist.png)
+![](screenshots/setup-info-plist.png)
 
 ### Pronto!
 Voilà! Agora você está com tudo preparado para desenvolver.
 
-![](tutorial/screenshots/welcome.png)
+![](screenshots/welcome.png)
