@@ -4,6 +4,6 @@ Introdução ao desenvolvimento para tvOS através de TVML, TVJS e TVMLKit.
 ### Assuntos
 - Overview
 - Templates
-- Configuração inicial (servidor + hands on)
+- [Configuração inicial](tutorial/INITIAL_SETUP.md)
 - Demo dos componentes
 - Netflix
