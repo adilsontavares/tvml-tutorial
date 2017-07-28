@@ -141,8 +141,8 @@ para a mesma localização do `application.js`.
 
 No arquivo `application.js`, vá até a variável `template` e adicione o seguinte código dentro da tag `<alertTemplate>`:
 ``` xml
-<background> // 1
-    <img src="${baseURL}/img/backgrounds/background1.jpg" /> // 2
+<background> <!-- 1 -->
+    <img src="${baseURL}/img/backgrounds/background1.jpg" /> <!-- 2 -->
 </background>
 ```
 
