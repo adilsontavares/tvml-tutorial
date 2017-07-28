@@ -16,6 +16,7 @@ Criando um novo projeto e configurando o servidor na máquina local.
 Como imprimir e visualizar as mensagens de **debug** por meio do Safari.
 
 ## Links úteis
+- [Referência do TVMLKit JS](https://developer.apple.com/documentation/tvmljs)
 - [Templates para o TVML](https://developer.apple.com/library/content/documentation/LanguagesUtilities/Conceptual/ATV_Template_Guide/TextboxTemplate.html#//apple_ref/doc/uid/TP40015064-CH2-SW8)
 - [Personalização visual dos componentes](https://developer.apple.com/library/content/documentation/LanguagesUtilities/Conceptual/ATV_Template_Guide/ITMLStyles.html#//apple_ref/doc/uid/TP40015064-CH11-SW1)
 - [Guia de programação do TVML](https://developer.apple.com/library/content/documentation/TVMLKitJS/Conceptual/TVMLProgrammingGuide/index.html)
