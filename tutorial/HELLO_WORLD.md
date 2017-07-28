@@ -137,7 +137,7 @@ a string com o conteúdo de uma variável. Tal funcionalidade é similar ao `\(v
 Vamos adicionar uma imagem de fundo nesta página. Antes, copie a pasta `img`, presente na raiz deste repositório, 
 para a mesma localização do `application.js`.
 
-![](screenshots/add-img-folder.img)
+![](screenshots/add-img-folder.png)
 
 No arquivo `application.js`, vá até a variável `template` e adicione o seguinte código dentro da tag `<alertTemplate>`:
 ``` xml
