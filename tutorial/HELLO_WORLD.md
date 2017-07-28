@@ -130,4 +130,28 @@ App.onLaunch = function(options) {
 3. Substituímos partes do texto por `${variavel}`. Esta é uma das maneiras com que o JS concatena 
 a string com o conteúdo de uma variável. Tal funcionalidade é similar ao `\(variavel)` do código em Swift.
 
-![](screenshots/custom-alert-template.png) 
+![](screenshots/custom-alert-template.png)
+
+### Colocando um *background*
+
+Vamos adicionar uma imagem de fundo nesta página. Antes, copie a pasta `img`, presente na raiz deste repositório, 
+para a mesma localização do `application.js`.
+
+![](screenshots/add-img-folder.img)
+
+No arquivo `application.js`, vá até a variável `template` e adicione o seguinte código dentro da tag `<alertTemplate>`:
+``` xml
+<background> // 1
+    <img src="${baseURL}/img/backgrounds/background1.jpg" /> // 2
+</background>
+```
+
+1. A tag `<background>` contém os elementos que ficarão em fundo. Além de imagem, você pode colocar um som para
+ficar tocando enquanto o usuário está contemplando a sua tela.
+2. Repare que precisamos colocar a URL para a nossa imagem, e é em casos assim que precisamos do `baseURL`. 
+Nesta situação, a Apple TV irá procurar pela imagem em: `http://localhost:9001/img/backgrounds/background1.jpg`.
+
+![](screenshots/tvml-background.png)
+
+Done! Experimente colocar mais elementos ao fundo, colocar outros botões e personalizar a tela. Para saber quais
+componentes existem, aonde podem ser colocados e suas propriedades, consule a [referência de programação do TVML](https://developer.apple.com/library/content/documentation/LanguagesUtilities/Conceptual/ATV_Template_Guide/SimpleDisplayElements.html#//apple_ref/doc/uid/TP40015064-CH19-SW14).
