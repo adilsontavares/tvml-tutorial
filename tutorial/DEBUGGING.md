@@ -18,7 +18,7 @@ O *bundle identifier* pode ser encontrado nas configurações do projeto.
 No meu caso, é `com.adilsontavares.HelloTVML`.
 
 E aí está! Não se preocupe com o erro abaixo, está tudo normal. Ele apenas indica que não foi possível carregar o arquivo `default` (selecionado na barra lateral).
-Para visualizar as mensagens de log e erros, selecione a aba `Console`.
+Para visualizar as mensagens, selecione a aba `Console`.
 ![](screenshots/safari-inspector.png) 
 
 Para imprimir mensagens no console, acrescente o seguinte código na função `App.onLaunch`:  
