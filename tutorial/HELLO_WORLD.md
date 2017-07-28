@@ -1,4 +1,4 @@
-# Hello, TVML!
+# Olá, TVML!
 
 Antes de iniciar a programação, certifique-se de que o projeto está configurado corretamente e
 você está com o servidor em execução. Você pode encontrar como fazer isso [aqui](INITIAL_SETUP.md).
