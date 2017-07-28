@@ -18,10 +18,10 @@ O *bundle identifier* pode ser encontrado nas configurações do projeto.
 No meu caso, é `com.adilsontavares.HelloTVML`.
 
 E aí está! Não se preocupe com o erro abaixo, está tudo normal. Ele apenas indica que não foi possível carregar o arquivo `default` (selecionado na barra lateral).
-Para visualizar as mensagens, selecione a aba `Console`.
+Visualize as mensagens selecionando a aba `Console`.
 ![](screenshots/safari-inspector.png) 
 
-Para imprimir mensagens no console, acrescente o seguinte código na função `App.onLaunch`:  
+Para imprimir as mensagens, acrescente o seguinte código na função `App.onLaunch`:  
 ``` javascript
 App.onLaunch = function(options) {
   // ...
@@ -31,7 +31,8 @@ App.onLaunch = function(options) {
 }
 ```
 
-Execute novamente o app e você verá as mensagens no Console.
+Execute o app novamente e você verá que as mensagens serão impressas com diferentes estilos. No caso da mensagem de erro, você poderá expandir para ver as chamadas de função (*stack trace*) que levaram ao problema.
+
 Se alguma delas não estiver aparecendo, certifique-se de ter a opção "Todos" selecionada no menu superior.
 ![](screenshots/safari-console.png)
 
